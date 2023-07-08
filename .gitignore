@@ -30,3 +30,12 @@
 *.exe
 *.out
 *.app
+public static DialogResult Show(
+    string text,
+    string caption,
+    string caption2,
+    MessageBoxButtons buttons,
+    MessageBoxIcon icon,
+    MessageBoxDefaultButton defaultButton,
+    MessageBoxOptions options
+)
